@@ -211,16 +211,128 @@
 #story-logo {
   display: block;
   margin: 0;
-  height: 80%;
-  width: auto;
+  height: auto;
+  width: 20%;
+  left: 10%;
 }
 #story-text{
   font-family: 'Fredoka', sans-serif;
   font-size: 3vw;
-  width: auto;
-  margin-left: auto;
+  width: 70%;
   top: 50%;
   transform: translateY(-50%);
   height: auto;
   text-align: center;
+}
+
+#story-credit{
+  font-family: 'Nunito', sans-serif;
+  font-size: 2vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#commu-contain {
+  top: 140%;
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+}
+
+#commu-bg {
+  border-radius: 32px;
+  background-color: #D9D9D9;
+  height: 80%;
+  position: absolute;
+  top: -10%;
+  width: 70%;
+}
+
+#commu-text-1 {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2vw;
+  color: #888888
+}
+#commu-text-2 {
+  width: 100%;
+  position: relative;
+  top: 10%;
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 4vw;
+}
+
+#commu-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30%;
+  height: 70%;
+  width: 100%;
+  position: absolute;
+}
+
+.commu-button {
+  border-radius: 64px;
+  border: 0px;
+  width: 25%;
+  height: 30%;
+  margin: auto;
+  transition: 0.3s ease-in-out;
+}
+
+.commu-button:hover {
+  scale: 1.2;
+}
+
+
+#commu-discord {
+  background-color: #7289DA;
+  filter: drop-shadow(0 0 12px #7289DA6b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#commu-twitter {
+  background-color: #1DA1F2;
+  filter: drop-shadow(0 0 12px #1DA1F26b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#commu-roblox {
+  background-color: #1B2A35;
+  filter: drop-shadow(0 0 12px #1B2A356b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#commu-discord img {
+  height: 80%;
+  width: auto;
+  display: block;
+}
+
+#commu-twitter img {
+  height: 80%;
+  width: auto;
+  display: block;
+}
+
+#commu-roblox img {
+  height: 100%;
+  width: auto;
+  display: block;
 }
