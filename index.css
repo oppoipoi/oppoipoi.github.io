@@ -20,6 +20,7 @@
   
   .nav-buttons {
     background-color: rgba(0, 0, 0, 0);
+    color: black;
     font-family: 'Oxygen', sans-serif;
     border: 0px;
     height: 100%;
@@ -104,8 +105,7 @@
 
 #dev-more {
   font-family: 'Fredoka', sans-serif;
-  font-size: 100%;
-  line-height: 2vw;
+  font-size: 2vw;
   height: 15%;
   width: 20%;
   display: block;
@@ -164,6 +164,7 @@
   margin-top: 5%;
 }
 #game-more {
+  text-decoration:none;
   height: 15%;
   width: 40%;
   top: 0;  
@@ -236,7 +237,7 @@
 #commu-contain {
   top: 84rem;
   position: absolute;
-  height: 18rem;
+  height: 24rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -247,7 +248,7 @@
 #commu-bg {
   border-radius: 32px;
   background-color: #D9D9D9;
-  height: 80%;
+  height: 100%;
   position: absolute;
   top: -10%;
   width: 70%;
@@ -337,5 +338,81 @@
   display: block;
 }
 
-.contain {
+#footer-contain {
+  top: 108rem;
+  position: absolute;
+  height: 18rem;
+  width: 100%;
+  left: 0;
+  z-index: 0;
+  background-color: #F5F5F5;
+}
+
+#footer-logo {
+  display: block;
+  height: 80%;
+  width: auto;
+  left: 3%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+#footer-sites-text {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 4vw;
+  text-align: right;
+  left: 60%;
+  position: absolute;
+  top: 0;
+}
+
+#footer-contacts-text {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 4vw;
+  text-align: left;
+  left: 80%;
+  position: absolute;
+  top: 0;
+}
+
+#footer-sites {
+  left: 60%;
+  text-align: left;
+  position: absolute;
+  top: 25%;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2vw;
+  color: #878383;
+  display: flex;
+  justify-content:start ;
+  align-items: start;
+  flex-direction: column;
+}
+
+#footer-contacts {
+  left: 80%;
+  text-align: left;
+  position: absolute;
+  top: 25%;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2vw;
+  color: #878383;
+  display: flex;
+  justify-content:start ;
+  align-items: start;
+  flex-direction: column;
+}
+
+#footer-contacts a {
+  margin-bottom: 5%;
+  color: #878383;
+  text-decoration:none;
+}
+
+#footer-sites a {
+  margin-bottom: 5%;
+  color: #878383;
+  text-decoration:none;
 }
